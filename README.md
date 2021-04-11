@@ -2,7 +2,8 @@
 Analysis of election results with Python
 
 ## Resources
-Data Source: election_results.csv
+Data Source: [election_results.csv](https://github.com/monsecc01/Election-Analysis/blob/9bea6ec438ec9c0f408b33f3377d84d3235eaafa/election_results.csv)
+
 Software: Python 3.9, Visual Studio Code 1.55.1
 
 ## Overview of Election Audit:
@@ -38,5 +39,7 @@ In this project we will help Tom, an employee of the Colorado Board of Elections
    
 ## Election-Audit Summary: 
 If the Colorado Board of Elections intends on analyzing election data in the future, we propose the use of this script. As long as the election results csv file has data for Ballot ID, County, and Candidate, the script will be functional for other elections. Modifications to names for file paths and the election results file may be required to run the script without errors if they are different.
+
 ![path code](https://user-images.githubusercontent.com/81447450/114289640-3fdd0a80-9a3f-11eb-916b-3e9ac2db9824.png)
+
 Furthermore, this script could be used for additional analysis of the current election results. One example would be candidate votes by county to understand how candidates performed in different counties. If additional data were added to the election results, like age, race, or gender, we could further analyze vote counts by various categories. However, it is recommended to import the Pandas package to facilitate data analysis. 
